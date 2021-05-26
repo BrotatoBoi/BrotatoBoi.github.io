@@ -1,6 +1,5 @@
 function setup() {
-  alert("OOga");
-  document.getElementById('mainBtn').click()
+  document.getElementById('download').style.display = "none"
 }
 
 function switchTab(fromId, toId) {
