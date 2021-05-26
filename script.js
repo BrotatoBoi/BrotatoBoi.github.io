@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $('download').hide();
+  document.getElementById('download').hide();
 })
 
 function setup() {
