@@ -1,5 +1,5 @@
 function setup() {
-  document.getElementById('download').style.display = "block";
+  document.getElementById('mainBtn').click()
 }
 
 function switchTab(fromId, toId) {
