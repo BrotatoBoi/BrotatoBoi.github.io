@@ -1,4 +1,4 @@
-window.onload(function() {
+$(document).ready(function() {
   document.getElementById('download').hide();
 })
 
