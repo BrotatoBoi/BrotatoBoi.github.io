@@ -1,8 +1,8 @@
 function setup() {
-  document.getElementById('download').style.display = "none";
+  document.getElementById('download').style.visibility = "hidden";
 }
 
 function switchTab(fromId, toId) {
-  document.getElementById(fromId).style.display = "block";
-  document.getElementById(toId).style.display = "none";
+  document.getElementById(fromId).style.visibility = "visible";
+  document.getElementById(toId).style.visibility = "hidden";
 }
