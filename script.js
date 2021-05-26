@@ -1,3 +1,7 @@
+$(document).ready(function() {
+  $('download').hide();
+})
+
 function setup() {
   document.getElementById('download').style.visibility = "hidden";
 }
