@@ -1,5 +1,5 @@
 function setup() {
-  document.getElementById('download').style.display = "none"
+  document.getElementById('download').style.display = "none";
 }
 
 function switchTab(fromId, toId) {
