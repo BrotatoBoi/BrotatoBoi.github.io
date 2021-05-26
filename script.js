@@ -1,4 +1,5 @@
 function setup() {
+  alert("OOga");
   document.getElementById('mainBtn').click()
 }
 
