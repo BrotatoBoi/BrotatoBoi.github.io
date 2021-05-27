@@ -1,6 +1,7 @@
 body {
   color: lime;
   background-color: black;
+  align-content: center;
 }
 
 #main {
