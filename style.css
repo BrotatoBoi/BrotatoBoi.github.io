@@ -3,13 +3,13 @@ body {
   background-color: black;
 }
 
-.main {
+#main {
   border: 3px solid lime;
   width: 500px;
   height: 100px;
 }
 
-.download {
+#download {
   border: 3px solid lime;
   display: hidden;
 }
