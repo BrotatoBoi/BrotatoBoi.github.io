@@ -1,7 +1,7 @@
 body {
   color: lime;
   background-color: black;
-  display: flex;
+  display: block;
   justify-content: center;
   align-content: center;
 }
