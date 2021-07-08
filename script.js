@@ -3,11 +3,14 @@ $(document).ready(function() {
 })
 
 function switchTab(goToTab) {
-  var navDivs = document.getElementsByClassName("navDivs")
+  var navDivs = document.getElementsByClassName("navDivs");
 
   for(let i=0; i<navDivs.length; i++) {
     if(navDivs[i] == goToTab) {
-	console.log("Yeet")
+	console.log("Yeet");
+    } else {
+	console.log("Neigh!");
     }
+    console.log(navDivs[i]);
   }
 }
