@@ -15,11 +15,12 @@
                 <h1 id="header">Home</h1>
                 
                 <div id="navBtns">
-                        <button id="homeBtn" onclick="switchTab('#main', '#download');">Home</button>
-                        <button id="downloadBtn" onclick="switchTab('#download', '#main');">Download</button>
+                        <button id="homeBtn" onclick="switchTab('#main');">Home</button>
+                        <button id="downloadBtn" onclick="switchTab('#download');">Download</button>
+			<button id="gameBtn" onclick="switchTab('#games')">Games</button>
                 </div>
                 
-                <div id="main">
+                <div id="main" class="navDivs">
                         <p>
 				Hello, welcome to my website! Here I will
 				upload the games and other items I have
@@ -27,10 +28,19 @@
 			</p>
                 </div>
                 
-                <div id="download">
+                <div id="download" class="navDivs">
                         <p>Here are the available items you can download!</p>
 
 			<h4>EMPTY!</h4>
                 </div>
+
+		<div id="games" class="navDivs">
+			<p>
+				Here is a list of games you can play on the site!
+				</br>
+				(no download needed)
+			</P>
+
+		</div>
         </body>
 </html>
