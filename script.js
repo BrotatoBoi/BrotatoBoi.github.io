@@ -4,5 +4,7 @@ $(document).ready(function() {
 
 function switchTab(goToTab) {
   var navDivs = document.getElementsByClassName("navDivs");
-  document.getElementById("#debug-text").innerHTML = navDivs;
+  if(navDivs) {
+    document.getElementById("#debug-text").innerHTML = navDivs;
+  }
 }
