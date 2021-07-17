@@ -5,6 +5,6 @@ $(document).ready(function() {
 function switchTab(goToTab) {
   var navDivs = document.getElementsByClassName("navDivs");
   if(navDivs) {
-    document.getElementById("debug-text").innerHTML = goToTab;
+    document.getElementById("debug-text").innerHTML = navDivs;
   }
 }
