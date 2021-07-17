@@ -1,14 +1,8 @@
 $(document).ready(function() {
-  $('#download').hide();
+  switchTab("#main");
 })
 
 function switchTab(goToTab) {
-  var navDivs = document.getElementsByClassName("navDivs");
-  var divs = "";
-
-  for (var i=0; i<navDivs.length(); i++) {
-    divs += navDivs[i]
-  }
-
-  document.getElementById("debug-text").innerHTML = divs;
+  document.getElementsByClassName("navDivs").style.visibility = 'hidden';
+  document.getElementsById(goToTab).style.visibility = 'visible';
 }
