@@ -4,7 +4,11 @@ $(document).ready(function() {
 
 function switchTab(goToTab) {
   var navDivs = document.getElementsByClassName("navDivs");
-  if(navDivs) {
-    document.getElementById("debug-text").innerHTML = navDivs;
+  var divs = "";
+
+  for (var i=0; i<navDivs.length(); i++) {
+    divs += navDivs[i]
   }
+
+  document.getElementById("debug-text").innerHTML = divs;
 }
