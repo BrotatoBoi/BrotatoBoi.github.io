@@ -6,8 +6,8 @@ function switchTab(goToTab) {
   navDivs = document.getElementsByClassName("navDivs");
   
   for(let i=0; i<navDivs.length; i++) {
-    navDivs[i].style.visibility = 'hidden';
+    navDivs[i].style.display = 'none';
   }
-  
-  document.getElementsById(goToTab).style.visibility = 'visible';
+
+  document.getElementById(goToTab).style.display = 'block';
 }
