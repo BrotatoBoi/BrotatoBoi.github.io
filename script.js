@@ -9,5 +9,5 @@ function switchTab(goToTab) {
     navDivs[i].style.display = 'none';
   }
 
-  document.getElementById(goToTab).style.display = 'block';
+  document.getElementById(goToTab).style.visibility = 'visible';
 }
