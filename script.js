@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  switchTab("#main");
+  switchTab("main");
 })
 
 function switchTab(goToTab) {
