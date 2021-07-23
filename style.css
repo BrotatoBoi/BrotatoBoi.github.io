@@ -1,20 +1,8 @@
 body {
   color: lime;
   background-color: black;
-  display: block;
-  justify-content: center;
-  align-content: center;
 }
 
-#main {
+.navDiv {
   border: 3px solid lime;
-  width: 99%;
-  height: 200%;
-}
-
-#download {
-  display: none;
-  border: 3px solid lime;
-  width: 99%;
-  height: 100%
 }

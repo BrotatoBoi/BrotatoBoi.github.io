@@ -11,16 +11,16 @@
                 <script src="./script.js"></script>
         </head>
 
-        <body>
+        <body onload="switchTab('home')">
                 <h1 id="header">Home</h1>
                 
                 <div id="navBtns">
-                        <button id="homeBtn" onclick="switchTab('#main');">Home</button>
-                        <button id="downloadBtn" onclick="switchTab('#download');">Download</button>
-			<button id="gameBtn" onclick="switchTab('#games')">Games</button>
+                        <button id="homeBtn" onclick="switchTab('home')">Home</button>
+                        <button id="downloadBtn" onclick="switchTab('download')">Download</button>
+			<button id="gameBtn" onclick="switchTab('games')">Games</button>
                 </div>
                 
-                <div id="main" class="navDivs">
+                <div id="home" class="navDiv">
                         <p>
 				Hello, welcome to my website! Here I will
 				upload the games and other items I have
@@ -28,13 +28,13 @@
 			</p>
                 </div>
                 
-                <div id="download" class="navDivs">
+                <div id="download" class="navDiv">
                         <p>Here are the available items you can download!</p>
 
 			<h4>EMPTY!</h4>
                 </div>
 
-		<div id="games" class="navDivs">
+		<div id="games" class="navDiv">
 			<p>
 				Here is a list of games you can play on the site!
 				</br>
