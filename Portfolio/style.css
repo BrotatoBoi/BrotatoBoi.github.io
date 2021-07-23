@@ -2,3 +2,7 @@ body {
     background-color: black;
     color: lime;
 }
+
+.navDiv {
+    border: lime 3px solid;
+}
