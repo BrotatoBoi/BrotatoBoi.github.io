@@ -1,4 +1,9 @@
 function switchTab(tabID) {
-  document.getElementsByClassName('navDiv').style.display = "none";
+  var navDivs = document.getElementsByClassName('navDiv').style.display = "none";
+  
+  for(let i=0; i<navDivs.length; i++) {
+    navDivs[i].style.display = "none";
+  }
+  
   document.getElementById(tabID).style.display = "block";
 }
