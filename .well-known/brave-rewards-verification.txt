@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: brotatoboi.github.io
+Token: 686fbbc80f3984d40845b254d7f7f3b10e8b922ccbfc616c8ff2e42a17696492
