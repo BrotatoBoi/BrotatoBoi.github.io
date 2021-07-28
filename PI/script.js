@@ -1,3 +1,4 @@
+
 // Permissions to get from user.
 const scopes = ['payments'];
 
