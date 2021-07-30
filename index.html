@@ -1,48 +1,28 @@
 <!DOCTYPE html>
-
 <html>
         <head>
                 <title>Welcome!</title>
-                
+
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                
+
                 <link rel="stylesheet" href="./style.css">
                 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
                 <script src="./script.js"></script>
         </head>
-
-        <body onload="switchTab('home')">
+        <body>
                 <h1 id="header">Home</h1>
-                
+
                 <div id="navBtns">
-                        <button id="homeBtn" onclick="switchTab('home')">Home</button>
-                        <button id="downloadBtn" onclick="switchTab('download')">Download</button>
-			<button id="gameBtn" onclick="switchTab('games')">Games</button>
+                        <button id="homeBtn" onclick="alert('You are already home!')">Home</button>
+                        <!--    <button id="downloadBtn" onclick="switchTab('download')">Download</button> -->
+                        <button id="gameBtn" onclick="window.location.replace('https://brotatoboi.github.io/games.html')">Games</button>
                 </div>
-                
                 <div id="home" class="navDiv">
                         <p>
-				Hello, welcome to my website! Here I will
-				upload the games and other items I have
-				created!
-			</p>
+                                Hello, welcome to my website! Here I will
+                                upload the games and other items I have
+                                created!
+                        </p>
                 </div>
-                
-                <div id="download" class="navDiv">
-                        <p>Here are the available items you can download!</p>
-
-			<h4>EMPTY!</h4>
-                </div>
-
-		<div id="games" class="navDiv">
-			<p>
-				Here is a list of games you can play on the site!
-				</br>
-				(no download needed)
-			</P>
-
-		</div>
-
-		<p id="debug-text"></p>
         </body>
 </html>
