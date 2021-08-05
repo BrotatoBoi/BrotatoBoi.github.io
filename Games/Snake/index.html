@@ -6,13 +6,21 @@
         <link rel="stylesheet" href="../../style.css">
         <link rel="stylesheet" href="./style.css">
     </head>
-    <body onmousemove="mouse_move(event)">
+    <body>
         <p>
             The snake game will be here!
         </p>
 
         <canvas width="500" height="500" id="gameCanvas"></canvas>
 
-        <script src='./script.js'></script>
+        <div id="gameBtns">
+            <button onclick="move('left')">Left</button>
+            <button onclick="move('down')">Down</button>
+            <button onclick="move('up')">Up</button>
+            <button onclick="move('right')">Right</button>
+            <button onclick="toggle_grid()" id="tgBtn">Turn Grid Off</button>
+        </div>
+
+        <script src='./script-re.js'></script>
     </body>
 </html>
