@@ -3,7 +3,7 @@ body {
     background-color: black;
   }
   
-.main {
+#main {
     border: 3px solid lime;
     height: 90%;
 }
