@@ -1,0 +1,10 @@
+body {
+    color: lime;
+    background-color: black;
+  }
+  
+.main {
+    border: 3px solid lime;
+    height: 90%;
+}
+  
