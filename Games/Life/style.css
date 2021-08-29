@@ -1,0 +1,11 @@
+body {
+    background-color: black;
+    color: lime;
+}
+
+#world {
+    width: 500px;
+    height: 500px;
+
+    border: lime 3px solid;
+}
