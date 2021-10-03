@@ -7,3 +7,15 @@ body {
   border: 3px solid lime;
   height: 90%;
 }
+
+.btnNav {
+  background-color: black;
+  border: 1px solid lime;
+  color: lime;
+  width: 50%;
+  display: inline-block;
+}
+
+#navBtns {
+  display: inline-block;
+}
