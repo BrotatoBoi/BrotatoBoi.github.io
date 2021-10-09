@@ -13,9 +13,9 @@ body {
   border: 1px solid lime;
   color: lime;
   width: 50%;
-  display: inline-block;
+  float: left;
 }
 
-#navBtns {
-  display: inline-block;
+.btnNav:hover {
+  background-color: darkgray;
 }
