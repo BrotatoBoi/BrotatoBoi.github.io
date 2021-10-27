@@ -1,0 +1,15 @@
+body {
+    background-color: black;
+    color: lime;
+}
+
+#title {
+    text-align: center;
+}
+
+#main {
+    border: 3px solid lime;
+    width: 75%;
+    margin-left: 12%;
+    text-align: center;
+}
