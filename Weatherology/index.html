@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>WeatherWizard</title>
+    
+    <!-- Google-font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;900&display=swap" rel="stylesheet">
+    
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+      integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.css"
+      integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+      crossorigin="anonymous" />
+    
+      <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+  <body>
+    <main>
+      <div class="container">      
+
+        <header>
+          <h1 class="title">WeatherWiz</h1>
+          <div class="input-group">
+            <input class="city-name-input" name="city" placeholder="City Name" id="cityNameInput">
+            </br>
+            <button class="search-btn" type="button">Search</button>
+          </div>
+        </header>
+
+        <section class="temp-section">
+          <div class="temp-group">
+            <div class="city-details">
+              <p class="time-and-date" id="dat">1:12pm, Apr 14</p>
+              <h2 class="city-name" id="city">Navsari</h2>
+            </div>
+            <div class="wrapper">
+              <h1 class="temperature" id="temp">30°C</h1>
+              <img class="weather-icon" id="wicon" src="http://openweathermap.org/img/wn/50n@2x.png" alt="Haze">
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.js"
+      integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+      crossorigin="anonymous">
+    </script>
+    
+      <!-- Script -->
+    <script src="js/app.js" type="module"></script>
+  </body>
+</html>
