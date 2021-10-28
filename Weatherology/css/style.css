@@ -15,8 +15,8 @@ body {
 
 #temp-group {
   margin-top: 5%;
+  margin-left: 5%;
   width: 90%;
-  align-items: center;
   border: 3px solid darkblue; 
 }
 
