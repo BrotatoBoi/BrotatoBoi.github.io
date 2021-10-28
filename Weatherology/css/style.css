@@ -12,3 +12,7 @@ body {
 .colorBG {
   background-color: skyblue;
 }
+
+#cityNameInput {
+  width: 90%;
+}
