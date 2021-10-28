@@ -9,14 +9,7 @@ body {
   font-size: 65px;
 }
 
-.city-name-input {
-  background-color: skyblue;
-}
 
-.search-btn {
-  background-color: skyblue;
-}
-
-.temp-section {
+.colorBG {
   background-color: skyblue;
 }
