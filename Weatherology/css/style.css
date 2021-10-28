@@ -18,3 +18,10 @@ body {
   height: 20%;
   text-align: center;
 }
+
+#search-button {
+  width: 20%;
+  height: 20%;
+  margin-top: 1%;
+  border-radius: 50%;
+}
