@@ -13,7 +13,7 @@ body {
   background-color: skyblue;
 }
 
-.temp-group {
+#temp-group {
   margin-top: 5%;
  border: 3px solid darkblue; 
 }
