@@ -13,3 +13,10 @@ body {
     margin-left: 12%;
     text-align: center;
 }
+
+#langs {
+    border: 2px solid gray;
+    background-color: darkslategray;
+    width: 25%;
+    height: 30%;
+}
