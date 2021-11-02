@@ -1,6 +1,7 @@
 body {
   color: lime;
   background-color: black;
+  text-align: center
 }
 
 .navDiv {
@@ -18,4 +19,33 @@ body {
 
 .btnNav:hover {
   background-color: darkgray;
+}
+
+.showcaseItem {
+  border: 3px solid lime;
+  text-align: center;
+  width: 48%;
+  height: 92%;
+  margin-top: 1%;
+  margin-left: 1%;
+}
+
+.scItemH4 {
+  margin-top: -0.13%;
+}
+.scItemP {
+  margin-top: -3%;
+}
+
+#showcase {
+  border: 3px solid lime;
+  height: 400px;
+  margin-top: 3%;
+}
+
+#MGrepl {
+  border: 1px solid lime;
+  width: 100%;
+  height: 89%;
+  margin-top: -2%;
 }
