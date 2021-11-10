@@ -1,14 +1,40 @@
+/*
+  Programmer: AJ Cassell.
+  Date: May/26/2021.
+  Description: This is the style sheet for the BrotatoBoi.github.io website.
+*/
+
+
+/*
+ :Site Body:
+ Make Text color Lime Green.
+ Make Background Color Black.
+ Align Text to Center.
+*/
 body {
   color: lime;
   background-color: black;
   text-align: center
 }
 
+/*
+ :Navigation Div: 
+ Add a 3px solid Lime Green border.
+ Make Height 90% of the page.
+*/
 .navDiv {
   border: 3px solid lime;
   height: 90%;
 }
 
+/*
+ :Navigation Button:
+ Add a 3px solid Lime Green border.
+ Make Color Lime Green.
+ Make Background Color Black.
+ Make Width 50% of the page.
+ Float it to the Left.
+*/
 .btnNav {
   background-color: black;
   border: 1px solid lime;
@@ -17,10 +43,22 @@ body {
   float: left;
 }
 
+/*
+ :Hovering Over Navigation Button:
+ Make the Background color Dark Gray.
+*/
 .btnNav:hover {
   background-color: darkgray;
 }
 
+/*
+ :Showcase Item Div:
+ Add a 3px solid Lime Green border.
+ Align the text to the center.
+ Set the width to 48% of the page.
+ Set the height to 92% of the page.
+ Add a Margin the the left and right to 1% of the page.
+*/
 .showcaseItem {
   border: 3px solid lime;
   text-align: center;
@@ -30,19 +68,40 @@ body {
   margin-left: 1%;
 }
 
+/*
+ :Showcase Item Header:
+ Add a top margin of -0.13% of the page. (could be 0.13% of bottom margin).
+*/
 .scItemH4 {
   margin-top: -0.13%;
 }
+
+/*
+ :Showcase Item Paragraph:
+  Add a top margin of -3% of the page. (could be 3% of bottom margin).
+*/
 .scItemP {
   margin-top: -3%;
 }
 
+/*
+ :Showcase Div:
+ Add a 3px solid Lime Green border.
+ Set the height to 400px.
+ Set the top margin to 3% of the page.
+*/
 #showcase {
   border: 3px solid lime;
   height: 400px;
   margin-top: 3%;
 }
 
+/*
+ :Morse-God IFrame:
+ Set width to 100% of the page.
+ Set height to 89% of the page.
+ Set the top margin to -2% of the page. (could be 2% of bottom margin).
+*/
 #MGrepl {
   border: 1px solid lime;
   width: 100%;
