@@ -1,8 +1,26 @@
+/*
+  Programmer: AJ Cassell (@BrotatoBoi).
+  Date: July/22/2021.
+  Description: This is the CSS file for my portfolio website.
+*/
+
+
+/*
+  :Pages Body:
+  Set the Color to Lime Green.
+  Set the Background Color to Black.
+*/
 body {
     color: lime;
     background-color: black;
   }
   
+/*
+ :Main Div:
+ Add a 3px solid Lime Green border to the Main Div.
+ Set the height to 90% of the page.
+ Set the wisth to 50% of the page.
+*/
 #main {
     border: 3px solid lime;
     height: 90%;
