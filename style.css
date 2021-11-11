@@ -37,9 +37,11 @@ body {
 */
 .btnNav {
   background-color: black;
-  border: 1px solid lime;
+  border: 2px solid lime;
+  font-size: large;
   color: lime;
   width: 50%;
+  height: 30px;
   float: left;
 }
 
@@ -92,6 +94,9 @@ body {
 */
 #showcase {
   border: 3px solid lime;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
   height: 400px;
   margin-top: 3%;
 }
@@ -99,12 +104,12 @@ body {
 /*
  :Morse-God IFrame:
  Set width to 100% of the page.
- Set height to 89% of the page.
+ Set height to 88.5% of the page.
  Set the top margin to -2% of the page. (could be 2% of bottom margin).
 */
 #MGrepl {
   border: 1px solid lime;
   width: 100%;
-  height: 89%;
+  height: 88.5%;
   margin-top: -2%;
 }
