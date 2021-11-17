@@ -1,0 +1,60 @@
+body {
+    background-color: black;
+    color: lime;
+    text-align: center;
+}
+
+.updates {
+    width: 95%;
+    margin-left: 1.5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-size: 95%;
+    border: 2px solid lime;
+    text-align: center;
+}
+
+#main {
+    width: 90%;
+    height: 80%;
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    border: 2px solid lime;
+}
+
+#changelog {
+    width: 20%;
+    height: 90%;
+    position: absolute;
+    top: 5%;
+    right: 1.5%;
+    border: 2px solid lime;
+    overflow-y: auto;
+}
+
+#about {
+    width: 75%;
+    height: 90%;
+    position: absolute;
+    top: 5%;
+    left: 1.5%;
+    border: 2px solid lime;
+    overflow-y: auto;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: black;
+}
+
+::-webkit-scrollbar-thumb {
+    background: lime;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: limegreen;
+}
