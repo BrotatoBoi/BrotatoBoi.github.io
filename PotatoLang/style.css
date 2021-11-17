@@ -14,6 +14,22 @@ body {
     text-align: center;
 }
 
+.codeDoc {
+    background-color: rgb(20, 20, 20);
+    width: 60%;
+    height: fit-content;
+    margin-left: 20%;
+    margin-top: 3%;
+}
+
+.codeDoc p {
+    margin: 1%;
+}
+
+code {
+    background-color: rgb(12, 11, 11);
+}
+
 #main {
     width: 90%;
     height: 80%;

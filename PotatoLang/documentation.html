@@ -26,6 +26,246 @@
     <!-- Start of Body Tag. -->
     <body>
 
+        <!-- Site Header. -->
+        <h1>PotatoLang Documentation</h1>
+
+        <!-- The Main Div. -->
+        <div id="main" style="overflow-y: auto;">
+            <p>
+                Here is a complete documentation for PotatoLang.
+            </p>
+
+            <!-- Start of Code Documentation Block. -->
+            <div class="codeDoc">
+                <h3>Comments.</h3>
+                <p>
+                    You always need comments even if the code is self-explainatory!
+                    You can start on with <code>$</code>!
+
+                    </br>
+                    </br>
+                    
+                    Examples:
+                    
+                    </br>
+                    
+                    <code>
+                        $ This is a comment.
+                        </br>
+                        $ say "Cant read this"
+                        </br>
+                        say "You can read this"
+                    </code>
+                    
+                    </br>
+                    </br>
+                    
+                    Output:
+                    
+                    </br>
+                    
+                    <code>You can read this</code>
+                    
+                    </br>
+                    </br>
+                    
+                    Make sure to add a space after the <code>$</code> or it would error out!!
+                    
+                    </br>
+                    </br>
+                </p>
+            </div>
+
+            <!-- Start of Code Documentation Block. -->
+            <div class="codeDoc">
+                <h3>Print Text</h3>
+                <p>
+                    To print text to the screen you can use the keyword <code>say</code> followed by what you want to say.
+                    
+                    </br>
+                    </br>
+                    
+                    Example:
+                    
+                    </br>
+                    
+                    <code>say "Where the hay is Waldo?!"</code>
+                    
+                    </br>
+                    </br>
+                    
+                    Output:
+                    
+                    </br>
+                    
+                    <code>Where the hay is Waldo?!</code>
+                    
+                    </br>
+                    </br>
+                    
+                    You can also print variables by doing the following (<var>floop</var> = "bloop"):
+                    
+                    </br>
+                    
+                    <code>say "Value of 'floop' is:" floop</code>
+                    
+                    </br>
+                    </br>
+                    
+                    Output:
+                    
+                    </br>
+                    
+                    <code>Value of 'floop' is: bloop</code>
+                    
+                    </br>
+                    </br>
+                </p>
+            </div>
+            <!-- End of Code Documentation Block. -->
+
+            <!-- Start of Code Documentation Block. -->
+            <div class="codeDoc">
+                <h3>Create A Variable</h3>
+                <p>
+                    To create a variable you use the keyword </code>set</code> followed by the name, type and value of the variable.
+                    </br>
+                    </br>
+                    Example:
+                    
+                    </br>
+                
+                    <code>
+                        set floop words bloop
+                        </br>
+                        set green number 420
+                        </br>
+                        set cake decimal 3.14
+                        </br>
+                        set isSimple bool yes
+                        </br>
+                        set bugFree bool no
+                        </br>
+                        say floop green cake isSimple bugFree
+                    </code>
+
+                    </br>
+                    </br>
+
+                    Expected Output:
+
+                    </br>
+
+                    <code>bloop 420 3.14 yes no</code>
+
+                    </br>
+                    </br>
+
+                    Current Output:
+
+                    </br>
+                    
+                    <code>bloop4203.14TrueTrue</code>
+
+                    </br>
+                    </br>
+
+                    There are a few types of variables you can create:
+                    </br>
+                    <ul>
+                        <li>words > Words that can be used later in the program. (Future version will have a string parser.</li>
+                        <li>number > Classic numbers, -##### to ####</li>
+                        <li>decimal : UNTESTED > Decimal point numbers, -####.## to ####.##</li>
+                        <li>bool : UNTESTED > Yes/No, On/Off, True/False... but use yes/no please. :)</li>
+                    </ul>
+
+                    </br>
+                </p>
+            </div>
+            <!-- End of Code Documentation Block. -->
+
+            <!-- Start of Code Documentation Block. -->
+            <div class="codeDoc">
+                <h3>Get user input</h3>
+                <p>
+                    To get user input you can use the keyword <code>get</code> followed by the name of an existing variable to get and the message for the user.
+                    </br>
+                    </br>
+                    Example:
+                    </br>
+                    <code>
+                        set guess number 0
+                        </br>
+                        get guess Guess a number between 1 and 10
+                    </code>
+
+                    </br>
+                    </br>
+
+                    In the future I am hoping to make it parse the message as a string.
+
+                    </br>
+                    </br>
+                </p>
+            </div>
+            <!-- End of Code Documentation Block. -->
+
+            <!-- Start of Code Documentation Block. -->
+            <div class="codeDoc">
+                <h3>If Statements</h3>
+                <p>
+                    To create an if statement you use the keyword <code>if</code> followed by the name of the variable you want to check, the operator you want to use, and the value you want to check against.
+                    </br>
+                    </br>
+                    Examples:
+                    </br>
+                    <code>
+                        set num1 number 0
+                        </br>
+                        set num2 number 3
+                        </br>
+                        set num3 number 3
+                        </br>
+                        if num1 equals num2 then say "1 is 2" else say "1 not 2"
+                        </br>
+                        if num2 equals num3 then say "2 is 3" ; say "and heres multilines" else say "2 not 3" ; say "and multilines here too."
+                    </code>
+
+                    </br>
+                    </br>
+
+                    Output:
+
+                    </br>
+
+                    <code>
+                        1 not 2 
+                        </br>
+                        2 is 3 
+                        </br>
+                        and heres multilines
+                    </code>
+
+                    There are a few operators you can use:
+                    </br>
+                    <ul>
+                        <li>equals</li>
+                    </ul>
+
+                    </br>
+                    </br>   
+
+                    Currently it is really basic and only supports equals. possibly bug ridden.
+
+                    </br>
+                    </br>
+                </p>
+            </div>
+            <!-- End of Code Documentation Block. -->
+
+        </div>
+        <!-- End of Main Div. -->
+
     </body>
     <!-- End of Body Tag. -->
 
