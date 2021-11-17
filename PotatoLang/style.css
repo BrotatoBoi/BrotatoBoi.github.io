@@ -43,6 +43,11 @@ body {
     overflow-y: auto;
 }
 
+#about p {
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+}
+
 ::-webkit-scrollbar {
     width: 10px;
 }
