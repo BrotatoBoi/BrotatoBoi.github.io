@@ -143,9 +143,9 @@
                         </br>
                         set cake decimal 3.14
                         </br>
-                        set isSimple bool yes
+                        set isSimple yes/no yes
                         </br>
-                        set bugFree bool no
+                        set bugFree yes/no no
                         </br>
                         say floop green cake isSimple bugFree
                     </code>
@@ -168,7 +168,7 @@
                         <li>words > Words that can be used later in the program. (Future version will have a string parser.</li>
                         <li>number > Classic numbers, -##### to ####</li>
                         <li>decimal > Decimal point numbers, -####.## to ####.##</li>
-                        <li>bool > Yes/No, On/Off, True/False... but use yes/no please. :)</li>
+                        <li>yes/no > Yes/No, On/Off, True/False... but use yes/no please. :)</li>
                     </ul>
 
                     </br>
@@ -245,6 +245,9 @@
                     </br>
                     <ul>
                         <li>equals</li>
+                        <li>is-not</li>
+                        <li>greater-than</li>
+                        <li>less-than</li>
                     </ul>
 
                     </br>
@@ -257,6 +260,41 @@
                 </p>
             </div>
             <!-- End of Code Documentation Block. -->
+
+            <!-- Start of Code Documentation Block. -->
+            <div class="codeDoc">
+                <h3>whats</h3>
+                <p>
+                    This keyword is used to find information about certain words.
+
+                    </br>
+                    </br>
+
+                    Examples:
+                    </br>
+                    <code>
+                        set green number 420
+                        </br>
+                        set vodka words potato
+                        </br>
+                        whatis green vodka
+                    </code>
+                    </br>
+                    </br>
+                    Output:
+                    </br>
+                    <code>
+                        green is a number with the value of: 420
+                        </br>
+                        vodka is a buncha words with the value of: potato
+                    </code>
+                    </br>
+                    </br>
+                    You can use it on any other word that the Interpreter knows and it will tell you about it.
+                    </br>
+                    </br>
+                </p>
+            </div>
 
         </div>
         <!-- End of Main Div. -->
