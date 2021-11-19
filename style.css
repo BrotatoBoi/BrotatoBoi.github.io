@@ -14,103 +14,71 @@
 body {
   color: lime;
   background-color: black;
-  text-align: center
-}
-
-/*
- :Navigation Div: 
- Add a 3px solid Lime Green border.
- Make Height 90% of the page.
-*/
-.navDiv {
-  border: 3px solid lime;
-  height: 90%;
-}
-
-/*
- :Navigation Button:
- Add a 3px solid Lime Green border.
- Make Color Lime Green.
- Make Background Color Black.
- Make Width 50% of the page.
- Float it to the Left.
-*/
-.btnNav {
-  background-color: black;
-  border: 2px solid lime;
-  font-size: large;
-  color: lime;
-  width: 50%;
-  height: 30px;
-  float: left;
-}
-
-/*
- :Hovering Over Navigation Button:
- Make the Background color Dark Gray.
-*/
-.btnNav:hover {
-  background-color: darkgray;
-}
-
-/*
- :Showcase Item Div:
- Add a 3px solid Lime Green border.
- Align the text to the center.
- Set the width to 48% of the page.
- Set the height to 92% of the page.
- Add a Margin the the left and right to 1% of the page.
-*/
-.showcaseItem {
-  border: 3px solid lime;
   text-align: center;
-  width: 48%;
-  height:100%;
-  margin-top: 1%;
-  margin-left: 1%;
+  font-size: 100%;
 }
 
-/*
- :Showcase Item Header:
- Add a top margin of -0.13% of the page. (could be 0.13% of bottom margin).
-*/
-.scItemH4 {
-  margin-top: -0.13%;
+#main {
+  width: 90%;
+  height: 85%;
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+  border: 2px solid lime;
 }
 
-/*
- :Showcase Item Paragraph:
-  Add a top margin of -3% of the page. (could be 3% of bottom margin).
-*/
-.scItemP {
+#projects {
+  width: 20%;
+  height: 95%;
+  border: solid lime 3px;
+  position: absolute;
+  top: 2%;
+  right: 0.5%;
+}
+
+#current {
+  width: 95%;
+  height: fit-content;
+  border: lime solid 1px;
+  margin-left: 2%;
   margin-top: -3%;
 }
 
-/*
- :Showcase Div:
- Add a 3px solid Lime Green border.
- Set the height to 400px.
- Set the top margin to 3% of the page.
-*/
-#showcase {
-  border: 3px solid lime;
-  border-left: none;
-  border-right: none;
-  border-bottom: none;
-  height: 400px;
-  margin-top: 3%;
+#all {
+  width: 95%;
+  height: 59%;
+  border: lime solid 1px;
+  margin-left: 2%;
+  margin-top: -5%;
   overflow-y: auto;
 }
 
-/*
- :Morse-God IFrame:
- Set width to 100% of the page.
- Set height to 88.5% of the page.
- Set the top margin to -2% of the page. (could be 2% of bottom margin).
-*/
-#MGrepl {
-  border: 1px solid lime;
-  width: 100%;
-  height: 88.5%;
-  margin-top: -2%;
+#line {
+  width: 75%;
+  margin-top: 5%;
+  margin-left: 15%;
+  border: lime dashed 1px;
+}
+
+#proj {
+  width: 95%;
+  height: fit-content;
+  border: lime solid 1px;
+  margin-left: 2%;
+  margin-top: 1%;
+}
+
+#content {
+  border: solid lime 2px;
+  width: 77%;
+  height: 95%;
+  margin-left: 1%;
+  margin-top: 1%;
+  text-align: center;
+}
+
+#content p {
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
