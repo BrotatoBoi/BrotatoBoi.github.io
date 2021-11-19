@@ -15,65 +15,61 @@ body {
   color: lime;
   background-color: black;
   text-align: center;
-  font-size: 100%;
+  font-size: 1.5vw;
 }
 
 #main {
-  width: 90%;
-  height: 85%;
+  width: 98vw;
+  height: 47vw;
   position: absolute;
-  bottom: 5%;
-  left: 5%;
-  border: 2px solid lime;
+  border: 0.25vw solid lime;
 }
 
 #projects {
-  width: 20%;
-  height: 95%;
-  border: solid lime 3px;
+  width: 25vw;
+  height: 44vw;
+  border: solid lime 0.25vw;
   position: absolute;
-  top: 2%;
-  right: 0.5%;
+  top: 1vw;
+  right: 1vw;
 }
 
 #current {
-  width: 95%;
+  width: 18.5vw;
   height: fit-content;
-  border: lime solid 1px;
-  margin-left: 2%;
-  margin-top: -3%;
+  border: lime solid 0.25vw;
+  margin-left: 3vw;
 }
 
 #all {
-  width: 95%;
-  height: 59%;
-  border: lime solid 1px;
-  margin-left: 2%;
-  margin-top: -5%;
+  width: 18.5vw;
+  height: 19vw;
+  border: lime solid 0.25vw;
+  margin-left: 3vw;
   overflow-y: auto;
 }
 
 #line {
-  width: 75%;
-  margin-top: 5%;
-  margin-left: 15%;
-  border: lime dashed 1px;
+  width: 10vw;
+  margin-top: 1vw;
+  margin-left: 7vw;
+  border: lime dashed 0.25vw;
 }
 
 #proj {
   width: 95%;
   height: fit-content;
-  border: lime solid 1px;
+  border: lime solid 0.25vw;
   margin-left: 2%;
   margin-top: 1%;
 }
 
 #content {
-  border: solid lime 2px;
-  width: 77%;
-  height: 95%;
-  margin-left: 1%;
-  margin-top: 1%;
+  border: solid lime 0.25vw;
+  width: 69vw;
+  height: 37.5vw;
+  margin-left: 1vw;
+  margin-top: 1vw;
   text-align: center;
 }
 
