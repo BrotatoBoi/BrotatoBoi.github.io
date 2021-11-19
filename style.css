@@ -14,8 +14,10 @@
 body {
   color: lime;
   background-color: black;
-  text-align: center
+  text-align: center;
+  font-size: 100%;
 }
+
 #main {
   width: 90%;
   height: 85%;
@@ -72,4 +74,11 @@ body {
   height: 95%;
   margin-left: 1%;
   margin-top: 1%;
+  text-align: center;
+}
+
+#content p {
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
