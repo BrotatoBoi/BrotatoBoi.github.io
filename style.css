@@ -27,7 +27,7 @@ body {
 
 #projects {
   width: 25vw;
-  height: 44vw;
+  height: 95%;
   border: solid lime 0.25vw;
   position: absolute;
   top: 1vw;
@@ -67,7 +67,7 @@ body {
 #content {
   border: solid lime 0.25vw;
   width: 69vw;
-  height: 37.5vw;
+  height: 95%;
   margin-left: 1vw;
   margin-top: 1vw;
   text-align: center;
