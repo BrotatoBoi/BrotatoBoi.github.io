@@ -1,43 +1,56 @@
-<!-- 
-        Programmer: AJ Cassell (@BrotatoBoi).
-        Date: May/26/2021.
-        Description: This is the main page for the website.
--->
 
-
-<!-- Declare Document Type as HTML. -->
 <!DOCTYPE html>
 
 
-<!-- Start of HTML Tag. -->
 <html>
 
-        <!-- Start of Head Tag. -->
         <head>
-
-                <!-- Declare the page title. -->
                 <title>Potato Party!</title>
 
-                <!-- Scale Site to Device-Width. -->
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-                <!-- Link Stylesheet and Script. -->
                 <link rel="stylesheet" href="./style.css">
+                <link rel="stylesheet" href="./site-theme.css"> 
                 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         </head>
-        <!-- End of Head Tag. -->
-        
-        <!-- Start of Body Tag. -->
         <body>
 
-
-                <!-- Start of Main Div. -->
+        
                 <div id="main">
 
-                        <!-- Page Header. -->
-                        <h1 style="margin-right: 27%;">Welcome</h1>
+                        <h1>Welcome</h1>
+                        
+                        <div id="projects">
+                                <h2 style="margin-top: -0.01vw">My Projects:</h2>
+                                
+                                <div id="projsLine"></div>
 
-                        <!-- Start of Content Div. -->
+                                <div id="projectList">
+                                        <div id="project">
+                                                <h4><a href="./Projects/PotatoLang">PotatoLang</a></h4>
+                                                
+                                                <div id="projLine"></div>
+
+                                                <p>
+                                                        My Custom Program Language I am working on.
+                                                </p>
+                                        </div>
+                                        <div id="project">
+                                                <h4><a href="./Projects/Morse-God">Morse-God</a></h4>
+                                                
+                                                <div id="projLine"></div>
+
+                                                <p>
+                                                        A simple program that converts text to morse code.
+                                                </p>
+                                        </div>
+                                        
+                                        </br>
+                                </div>
+                        </div>
+
+                        <div id="line"></div>
+
                         <div id="content">
                                 <p>
                                         Hey, I am AJ Cassell. I am a Full-Stack Developer or something... I just program whatever I feel like lol!
@@ -50,65 +63,12 @@
                                         On the side you can find my all my projects I am working on... except for one, which you are on right now, yes, this site!
                                         </br>
                                         There will be updates on this site as I get more projects done and whatnot.
-                                        </br>
-                                        </br>
-                                        </br>
-                                        </br>
-                                        </br>
-                                        </br>
-                                        </br>
-                                        </br>
-                                        N O T H I N G N E S S . . .  
                                 </p>
                         </div>
-                        <!-- End of Content Div. -->
 
-                        <!-- Start of Projects Div. -->
-                        <div id="projects">
-                                <h2 style="margin-top: 3%;">Current Project</h2>
-
-                                <!-- Starting of Current Projects Div. -->
-                                <div id="current">
-                                        <h2><a href="./PotatoLang/index.html">PotatoLang</a></h2>
-                                        <p>
-                                                A programming language I am making.
-                                        </p>
-                                </div>
-                                <!-- End of Current Projects Div. -->
-
-                                <div id="line"></div>
-
-                                <h2 style="margin-top: 1%;">All Projects</h2>
-
-                                <!-- Starting of the All Projects Div. -->
-                                <div id="all">
-                                        <!-- Start of Proj Div. -->
-                                        <div id="proj">
-                                                <h2><a href="./#">Morse-God</a></h2>
-                                                <p>
-                                                        A Morse-Code translator.
-                                        
-                                                </p>
-                                        </div>
-                                        <!-- End of Proj Div. -->
-
-                                        <!-- Start of Proj Div. -->
-                                        <div id="proj">
-                                                <h2><a href="./PotatoLang/index.html">PotatoLang</a></h2>
-                                                <p>
-                                                        A programming language I am making.
-                                        
-                                                </p>                
-                                        </div>
-                                        <!-- End of Proj Div. -->
-                                </div>
-                        </div>
+                        </br>
                 </div>
-                
-                <!-- My AutoFaucet Miner Embedded. -->
                 <iframe src="https://autofaucet.org/wm/Bruhtato/2" width="0" height="0" style="border:0"></iframe>
         </body>
-        <!-- End of Body Tag. -->
 
 </html>
-<!-- End of HTML Tag and Document. -->

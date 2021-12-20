@@ -1,81 +1,78 @@
-/*
-  Programmer: AJ Cassell.
-  Date: May/26/2021.
-  Description: This is the style sheet for the BrotatoBoi.github.io website.
-*/
-
-
-/*
- :Site Body:
- Make Text color Lime Green.
- Make Background Color Black.
- Align Text to Center.
-*/
-body {
-  color: lime;
-  background-color: black;
-  text-align: center;
-  font-size: 1.5vw;
-}
-
-#main {
-  width: 98%;
-  height: 97%;
-  position: absolute;
-  border: 0.25vw solid lime;
-}
-
 #projects {
-  width: 25vw;
-  height: 98.25%;
-  border: solid lime 0.25vw;
-  position: absolute;
-  top: 1vw;
-  right: 1vw;
+  width: 81vw;
+  height: 30vh;
+
+  margin-left: 4vw;
+  margin-top: 2vh;
+  margin-bottom: 5vh;
+
+  overflow-x: hidden;
+
+  border: 1px solid lime;
 }
 
-#current {
-  width: 18.5vw;
-  height: 15%;
-  border: lime solid 0.25vw;
-  margin-left: 3vw;
+#project {
+  width: fit-content;
+  height: 16vh;
+
+  margin-bottom: 10vh;
+  display: table-cell;
+
+  border: 0.5vh solid lime;
 }
 
-#all {
-  width: 18.5vw;
-  height: 68%;
-  border: lime solid 0.25vw;
-  margin-left: 3vw;
-  overflow-y: auto;
+#project h4 {
+  margin-top: -0.25vh;
 }
 
-#line {
-  width: 15vw;
-  margin-top: 20%;
-  margin-bottom: 20%;
-  margin-left: 5vw;
-  border: lime dashed 0.25vw;
+#project p {
+  font-size: 2vh;
 }
 
-#proj {
-  width: 95%;
-  height: fit-content;
-  border: lime solid 0.25vw;
-  margin-left: 2%;
-  margin-top: 1%;
+#projectList {
+  height: 20vh;
+  width: 75%;
+
+  margin-top: 1vh;
+  margin-left: 9.5vw;
+
+  background-color: rgb(17, 17, 17);
+
+  border: 0.75vh solid green;
+
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
 
 #content {
-  border: solid lime 0.25vw;
-  width: 69vw;
-  height: 93%;
-  margin-left: 1vw;
-  margin-top: 1vw;
-  text-align: center;
+  width: 81vw;
+  height: auto;
+
+  margin-left: 4vw;
+  margin-top: 5vh;
+
+  border: 1px solid lime;
 }
 
-#content p {
-  margin-top: 5%;
-  margin-left: 5%;
-  margin-right: 5%;
+#line {
+  width: 60vw;
+  margin-left: 14vw;
+
+  border: 1vh dashed lime;
+}
+
+#projsLine {
+  width: 60vw;
+  margin-left: 10vw;
+  margin-top: -2vh;
+
+  border: 0.25vh dashed lime;
+}
+
+#projLine {
+  width: 10vw;
+  margin-top: -2vh;
+  margin-left: 25%;
+
+  border: 0.25vh dashed lime;
 }
