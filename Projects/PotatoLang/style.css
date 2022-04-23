@@ -52,19 +52,3 @@ code {
     margin-left: 1.5%;
     margin-right: 1.5%;
 }
-
-::-webkit-scrollbar {
-    width: 10px;
-}
-
-::-webkit-scrollbar-track {
-    background: black;
-}
-
-::-webkit-scrollbar-thumb {
-    background: lime;
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background: limegreen;
-}
