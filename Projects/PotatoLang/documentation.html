@@ -35,11 +35,12 @@
             <p>
                 Here is a complete documentation for PotatoLang.
             </p>
-
-            <!-- Start of Code Documentation Block. -->
-            <div class="codeDoc" style="overflow-y: auto;">
-                <h3>Comments.</h3>
-                <p>
+            
+            <div id="codeDocs">
+                <!-- Start of Code Documentation Block. -->
+                <div class="codeDoc">
+                    <h3>Comments.</h3>
+                    <p>
                     You always need comments even if the code is self-explainatory!
                     You can start one with <code>$</code>!
 
@@ -74,226 +75,227 @@
                     
                     </br>
                     </br>
-                </p>
-            </div>
+                    </p>
+                </div>
 
-            <!-- Start of Code Documentation Block. -->
-            <div class="codeDoc">
-                <h3>Print Text</h3>
-                <p>
-                    To print text to the screen you can use the keyword <code>say</code> followed by what you want to say.
+                <!-- Start of Code Documentation Block. -->
+                <div class="codeDoc">
+                    <h3>Print Text</h3>
+                    <p>
+                        To print text to the screen you can use the keyword <code>say</code> followed by what you want to say.
                     
-                    </br>
-                    </br>
-                    
-                    Example:
-                    
-                    </br>
-                    
-                    <code>say "Where the hay is Waldo?!"</code>
-                    
-                    </br>
-                    </br>
-                    
-                    Output:
-                    
-                    </br>
-                    
-                    <code>Where the hay is Waldo?!</code>
-                    
-                    </br>
-                    </br>
-                    
-                    You can also print variables by doing the following (<var>floop</var> = "bloop"):
-                    
-                    </br>
-                    
-                    <code>say "Value of 'floop' is:" floop</code>
-                    
-                    </br>
-                    </br>
-                    
-                    Output:
-                    
-                    </br>
-                    
-                    <code>Value of 'floop' is: bloop</code>
-                    
-                    </br>
-                    </br>
-                </p>
-            </div>
-            <!-- End of Code Documentation Block. -->
-
-            <!-- Start of Code Documentation Block. -->
-            <div class="codeDoc">
-                <h3>Create A Variable</h3>
-                <p>
-                    To create a variable you use the keyword </code>set</code> followed by the name, type and value of the variable.
-                    </br>
-                    </br>
-                    Example:
-                    
-                    </br>
-                
-                    <code>
-                        set floop words bloop
                         </br>
-                        set green number 420
                         </br>
-                        set cake decimal 3.14
-                        </br>
-                        set isSimple yes/no yes
-                        </br>
-                        set bugFree yes/no no
-                        </br>
-                        say floop green cake isSimple bugFree
-                    </code>
-
-                    </br>
-                    </br>
-
-                    Output:
-
-                    </br>
-
-                    <code>bloop 420 3.14 yes no</code>
-
-                    </br>
-                    </br>
-
-                    There are a few types of variables you can create:
-                    </br>
-                    <ul>
-                        <li>words > Words that can be used later in the program. (Future version will have a string parser.</li>
-                        <li>number > Classic numbers, -##### to ####</li>
-                        <li>decimal > Decimal point numbers, -####.## to ####.##</li>
-                        <li>yes/no > Yes/No, On/Off, True/False... but use yes/no please. :)</li>
-                    </ul>
-
-                    </br>
-                </p>
-            </div>
-            <!-- End of Code Documentation Block. -->
-
-            <!-- Start of Code Documentation Block. -->
-            <div class="codeDoc">
-                <h3>Get user input</h3>
-                <p>
-                    To get user input you can use the keyword <code>get</code> followed by the name of an existing variable to get and the message for the user.
-                    </br>
-                    </br>
-                    Example:
-                    </br>
-                    <code>
-                        set guess number 0
-                        </br>
-                        get guess Guess a number between 1 and 10
-                    </code>
-
-                    </br>
-                    </br>
-
-                    In the future I am hoping to make it parse the message as a string.
-
-                    </br>
-                    </br>
-                </p>
-            </div>
-            <!-- End of Code Documentation Block. -->
-
-            <!-- Start of Code Documentation Block. -->
-            <div class="codeDoc">
-                <h3>If Statements</h3>
-                <p>
-                    To create an if statement you use the keyword <code>if</code> followed by the name of the variable you want to check, the operator you want to use, and the value you want to check against.
-                    </br>
-                    </br>
-                    Examples:
-                    </br>
-                    <code>
-                        set num1 number 0
-                        </br>
-                        set num2 number 3
-                        </br>
-                        set num3 number 3
-                        </br>
-                        if num1 equals num2 then say "1 is 2" else say "1 not 2"
-                        </br>
-                        if num2 equals num3 then say "2 is 3" ; say "and heres multilines" else say "2 not 3" ; say "and multilines here too."
-                    </code>
-
-                    </br>
-                    </br>
-
-                    Output:
-
-                    </br>
-
-                    <code>
-                        1 not 2 
-                        </br>
-                        2 is 3 
-                        </br>
-                        and heres multilines
-                    </code>
-
-                    </br>
-                    </br>
                     
-                    There are a few operators you can use:
-                    </br>
-                    <ul>
-                        <li>equals</li>
-                        <li>is-not</li>
-                        <li>greater-than</li>
-                        <li>less-than</li>
-                    </ul>
-
-                    </br>
-                    </br>   
-
-                    Currently it is really basic and only supports equals. possibly bug ridden.
-
-                    </br>
-                    </br>
-                </p>
-            </div>
-            <!-- End of Code Documentation Block. -->
-
-            <!-- Start of Code Documentation Block. -->
-            <div class="codeDoc">
-                <h3>whats</h3>
-                <p>
-                    This keyword is used to find information about certain words.
-
-                    </br>
-                    </br>
-
-                    Examples:
-                    </br>
-                    <code>
-                        set green number 420
+                        Example:
+                    
                         </br>
-                        set vodka words potato
+                    
+                        <code>say "Where the hay is Waldo?!"</code>
+                    
                         </br>
-                        whatis green vodka
-                    </code>
-                    </br>
-                    </br>
-                    Output:
-                    </br>
-                    <code>
-                        green is a number with the value of: 420
                         </br>
-                        vodka is a buncha words with the value of: potato
-                    </code>
-                    </br>
-                    </br>
-                    You can use it on any other word that the Interpreter knows and it will tell you about it.
-                    </br>
-                    </br>
-                </p>
+                    
+                        Output:
+                    
+                        </br>
+                    
+                        <code>Where the hay is Waldo?!</code>
+                    
+                        </br>
+                        </br>
+                    
+                        You can also print variables by doing the following (<var>floop</var> = "bloop"):
+                    
+                        </br>
+                    
+                        <code>say "Value of 'floop' is:" floop</code>
+                    
+                        </br>
+                        </br>
+                    
+                        Output:
+                    
+                        </br>
+                    
+                        <code>Value of 'floop' is: bloop</code>
+                    
+                        </br>
+                        </br>
+                    </p>
+                </div>
+                <!-- End of Code Documentation Block. -->
+
+                <!-- Start of Code Documentation Block. -->
+                <div class="codeDoc">
+                    <h3>Create A Variable</h3>
+                    <p>
+                        To create a variable you use the keyword </code>set</code> followed by the name, type and value of the variable.
+                        </br>
+                        </br>
+                        Example:
+                    
+                        </br>
+                  
+                        <code>
+                            set floop words bloop
+                            </br>
+                            set green number 420
+                            </br>
+                            set cake decimal 3.14
+                            </br>
+                            set isSimple yes/no yes
+                            </br>
+                            set bugFree yes/no no
+                            </br>
+                            say floop green cake isSimple bugFree
+                        </code>
+
+                        </br>
+                        </br>
+
+                        Output:
+
+                        </br>
+
+                        <code>bloop 420 3.14 yes no</code>
+
+                        </br>
+                        </br>
+
+                        There are a few types of variables you can create:
+                        </br>
+                        <ul>
+                            <li>words > Words that can be used later in the program. (Future version will have a string parser.</li>
+                            <li>number > Classic numbers, -##### to ####</li>
+                            <li>decimal > Decimal point numbers, -####.## to ####.##</li>
+                            <li>yes/no > Yes/No, On/Off, True/False... but use yes/no please. :)</li>
+                        </ul>
+
+                        </br>
+                    </p>
+                </div>
+                <!-- End of Code Documentation Block. -->
+
+                <!-- Start of Code Documentation Block. -->
+                <div class="codeDoc">
+                    <h3>Get user input</h3>
+                    <p>
+                        To get user input you can use the keyword <code>get</code> followed by the name of an existing variable to get and the message for the user.
+                        </br>
+                        </br>
+                        Example:
+                        </br>
+                        <code>
+                            set guess number 0
+                            </br>
+                            get guess Guess a number between 1 and 10
+                        </code>
+
+                        </br>
+                        </br>
+
+                        In the future I am hoping to make it parse the message as a string.
+
+                        </br>
+                        </br>
+                    </p>
+                </div>
+                <!-- End of Code Documentation Block. -->
+
+                <!-- Start of Code Documentation Block. -->
+                <div class="codeDoc">
+                    <h3>If Statements</h3>
+                    <p>
+                        To create an if statement you use the keyword <code>if</code> followed by the name of the variable you want to check, the operator you want to use, and the value you want to check against.
+                        </br>
+                        </br>
+                        Examples:
+                        </br>
+                        <code>
+                            set num1 number 0
+                            </br>
+                            set num2 number 3
+                            </br>
+                            set num3 number 3
+                            </br>
+                            if num1 equals num2 then say "1 is 2" else say "1 not 2"
+                            </br>
+                            if num2 equals num3 then say "2 is 3" ; say "and heres multilines" else say "2 not 3" ; say "and multilines here too."
+                        </code>
+
+                        </br>
+                        </br>
+
+                        Output:
+
+                        </br>
+
+                        <code>
+                            1 not 2 
+                            </br>
+                            2 is 3 
+                            </br>
+                            and heres multilines
+                        </code>
+
+                        </br>
+                        </br>
+                    
+                        There are a few operators you can use:
+                        </br>
+                        <ul>
+                            <li>equals</li>
+                            <li>is-not</li>
+                            <li>greater-than</li>
+                            <li>less-than</li>
+                        </ul>
+
+                        </br>
+                        </br>   
+
+                        Currently it is really basic and only supports equals. possibly bug ridden.
+
+                        </br>
+                        </br>
+                    </p>
+                </div>
+                <!-- End of Code Documentation Block. -->
+  
+                <!-- Start of Code Documentation Block. -->
+                <div class="codeDoc">
+                    <h3>whats</h3>
+                    <p>
+                        This keyword is used to find information about certain words.
+
+                        </br>
+                        </br>
+
+                        Examples:
+                        </br>
+                        <code>
+                            set green number 420
+                            </br>
+                            set vodka words potato
+                            </br>
+                            whatis green vodka
+                        </code>
+                        </br>
+                        </br>
+                        Output:
+                        </br>
+                        <code>
+                            green is a number with the value of: 420
+                            </br>
+                            vodka is a buncha words with the value of: potato
+                        </code>
+                        </br>
+                        </br>
+                        You can use it on any other word that the Interpreter knows and it will tell you about it.
+                        </br>
+                        </br>
+                    </p>
+                </div>
             </div>
 
         </div>
